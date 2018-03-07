@@ -70,20 +70,23 @@ background-color: black;
 }
 
 #about {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  box-sizing: border-box;
   margin: 0 auto;
-list-style: none;
-width: 800px;
-padding-bottom: 300px;
+  list-style: none;
+  width: 100%;
+  padding: 50px 5% 300px 5%;
 }
 
 #about li {
-  float: left;
-  margin: 0 20px;
-  width: 200px;
+  width: 30%;
+  border: 1px solid purple;
   color: white;
-  font-family: fantasy;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
   background-color: black;
-
 }
 
 #parent {
@@ -206,10 +209,11 @@ margin-top: 300px
   /* Add some padding and a grey background color to containers */
   .container2 {
       padding: 20px;
-      background-color: #f1f1f1;
+      background-color: black;
       margin-left: auto;
-    margin-right: auto;
-    width:25em
+      margin-right: auto;
+      width: 25em;
+      color: white;
 
   }
 
@@ -224,6 +228,8 @@ label{font-family: sans-serif;}
       width: 100%;
       padding: 12px;
       margin: 8px 0;
+      background: black;
+      color: white;
       display: inline-block;
       border: 1px solid #ccc;
       box-sizing: border-box;
@@ -233,6 +239,11 @@ label{font-family: sans-serif;}
   /* Add margins to the checkbox */
   input[type=checkbox] {
       margin-top: 16px;
+      color: white;
+  }
+
+  .checkbox-text p {
+    color: black;
   }
 
   /* Style the submit button */
