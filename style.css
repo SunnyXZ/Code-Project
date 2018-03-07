@@ -9,14 +9,18 @@ header
   height:10vh;
   position: absolute;
   z-index: 1000;
+  width: 100%;
+}
+
+header .row {
+  display: flex;
+  justify-content: space-between;
 }
 
 .main-nav
 {
-  float:right;
   list-style: none;
-  margin-top:40px;
-  margin-left:80px;
+  margin-top: 40px;
 }
 
 .main-nav li
