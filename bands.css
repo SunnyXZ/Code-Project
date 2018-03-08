@@ -1,68 +1,63 @@
-*
-
-{
-  margin:0;
-  padding:0;
+* {
+    box-sizing: border-box;
 }
 
-header
-{
-  height:10vh;
-  position: absolute;
-  z-index: 1000;
-  width: 100%;
-}
-
-header .row {
-  display: flex;
-  justify-content: space-between;
-}
-
-.main-nav
-{
-  list-style: none;
-  margin-top: 40px;
-}
-
-.main-nav li
-{
-  display:inline-block;
-}
-
-.main-nav li a
-{
-  color:white;
-  text-decoration:none;
-  padding: 5px 20px;
-  font-family:"Roboto", sans-serif;
-  font-size:15px;
-}
-
-
-/* Style all font awesome icons */
-.fa {
+body {
+    background-color: #f1f1f1;
     padding: 20px;
-    font-size: 150px;
-    width: 200px;
-    text-align: center;
-    text-decoration: none;
+    font-family: Arial;
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.7;
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-    background: #3B5998;
-    color: white;
+h1 {
+    font-size: 50px;
+    word-break: break-all;
 }
 
-/* Twitter */
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
