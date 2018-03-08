@@ -107,7 +107,7 @@ background-color: black;
 
 
 
-#gallary
+#gallery
 {
   box-sizing: border-box;
 
@@ -116,7 +116,7 @@ background-color: black;
 /* Position the image container (needed to position the left and right arrows) */
 .container1 {
   position: relative;
-  color: black
+  color: black;
 }
 
 /* Hide the images by default */
