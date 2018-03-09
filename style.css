@@ -33,13 +33,14 @@ header .row {
   color:white;
   text-decoration:none;
   padding: 5px 20px;
-  font-family:"Roboto", sans-serif;
+  font-family:'Nunito', sans-serif;
   font-size:15px;
 }
 
 body{
   position: relative;
 background-color: black;
+font-family: 'Nunito', sans-serif;
 
 }
 
@@ -64,11 +65,12 @@ background-color: black;
   width: 100%;
   height: 400px;
   text-align: center;
+
 }
 
 #welcome p {
   margin-top: 180px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: white;
   font-size: 60px;
 }
@@ -89,7 +91,7 @@ background-color: black;
   border: 1px solid purple;
   color: white;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
   background-color: black;
 }
 
@@ -110,6 +112,7 @@ background-color: black;
 #gallery
 {
   box-sizing: border-box;
+  margin-top: -230px;
 
 }
 
@@ -224,11 +227,7 @@ margin-top: 300px
 
   }
 
-h2{
-  font-family: fantasy;
-}
-p{font-family: sans-serif;}
-label{font-family: sans-serif;}
+
 
   /* Style the input elements and the submit button */
   input[type=text], input[type=submit] {

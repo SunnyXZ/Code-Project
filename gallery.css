@@ -6,7 +6,7 @@
 {
     background-color: #050000;
     padding: 20px;
-    font-family: Arial;
+    font-family: "Nunito", sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -49,7 +49,7 @@ h1 {
 
 /* Content */
 .content {
-    background-color: white;
+    background-color: rgb(5, 5, 5);
     padding: 10px;
 }
 
@@ -69,16 +69,20 @@ h1 {
 
 /* Add a grey background color on mouse-over */
 .btn:hover {
-  background-color: #ddd;
+  background-color:black;
 }
 
 /* Add a dark background color to the active button */
 .btn.active {
   background-color: #666;
-   color: white;
+   color: rgb(8, 8, 8);
 }
 
 #gallery-box {
     margin-top: 150px;
-    color: white;
+    color: black;
+}
+
+#myBtnContainer {
+    margin-top: 50px;
 }
