@@ -7,7 +7,7 @@
     margin-top: 200px;
     margin-bottom: 16px;
     margin-left: 16%;
-    display: flex;
+    display: inline;
     justify-content: space-between;
     padding: 0 8px;
 }
@@ -22,7 +22,7 @@
 
 /* Add some shadows to create a card effect */
 .card {
-    box-shadow: 0 4px 8px 0 rgba(179, 102, 255, 0.7);
+    box-shadow: 0 4px 10px 0 rgba(102, 0, 204, 0.7);
 }
 
 /* Some left and right padding inside the container */
