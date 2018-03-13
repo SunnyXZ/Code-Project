@@ -1,84 +1,19 @@
-*
 
-/* Three columns side by side */
-.column {
-    float: left;
-    width: 27%;
+
+#contact-form
+{
+    margin: 0 auto;
+    width: 800px;
+    height: 800px;
+}
+
+#contact-form iframe {
     margin-top: 200px;
-    margin-bottom: 16px;
-    margin-left: 16%;
-    display: inline;
-    justify-content: space-between;
-    padding: 0 8px;
-}
-
-/* Display the columns below each other instead of side by side on small screens */
-@media (max-width: 650px) {
-    .column {
-        width: 100%;
-        display: block;
-    }
-}
-
-/* Add some shadows to create a card effect */
-.card {
-    box-shadow: 0 4px 10px 0 rgba(102, 0, 204, 0.7);
-}
-
-/* Some left and right padding inside the container */
-.container {
-    padding: 0 16px;
-}
-
-/* Clear floats */
-.container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.container h2
-{
-  color: #ffffff;
-}
-
-.info
-{color:white;
-  font-size: 15px;
-  margin-top: 8px;
-  margin-bottom: 10px;
-}
-
-
-.title {
-    color: #8000ff;
-}
-
-
-
-.button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #6600cc ;
-    text-align: center;
-    cursor: pointer;
+    height: 100%;
     width: 100%;
-    margin-bottom: 20px;
-margin-top:20px;
 }
 
-.button:hover {
-    background-color:#bf80ff;
-}
-
-#contactid
+body
 {
-    background-color: #050000;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+    position: relative;
 }
